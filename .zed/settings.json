@@ -1,0 +1,15 @@
+{
+  "languages": {
+    "Zig": {
+      "language_servers": ["zls"]
+    }
+  },
+  "lsp": {
+    "zls": {
+      // Currently doesn't work : https://github.com/zed-industries/zed/issues/6767
+      "binary": {
+        "path": "/home/david/projects/pi-zig-light-wizard/zig-tools/zls/zig-out/bin/zls"
+      }
+    }
+  }
+}
